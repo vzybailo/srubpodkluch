@@ -1,0 +1,71 @@
+/* configuration */
+/* layout */
+@font-face {
+  font-family: 'ArialBlack';
+  src: url("../fonts/ArialBlack.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ArialBlack'; }
+
+.wrapper {
+  width: 1050px;
+  margin: 0 auto; }
+
+/* sections */
+.header {
+  font-family: 'ArialBlack';
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px; }
+
+.header__logo {
+  padding-right: 45px; }
+
+.header__menu {
+  padding-right: 90px; }
+
+.item-header {
+  text-decoration: none;
+  color: #807F7F;
+  font-size: 17px; }
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+
+.nav__item {
+  padding-right: 10px; }
+  .nav__item:after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .nav__item:last-child:after {
+    display: none; }
+
+.item-header-active {
+  color: black; }
+
+.item-header:hover {
+  color: black; }
+
+.header__contacts {
+  color: orange; }
+
+.contacts__phone {
+  font-size: 25px; }
