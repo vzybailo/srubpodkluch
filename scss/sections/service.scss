@@ -1,0 +1,25 @@
+.content__item {
+    font-size: 15px;
+}
+
+.article__title {
+    font-size: 18px;
+    font-family: "ArialRegular";
+    padding-top: 20px;
+}
+
+.article__list {
+    counter-reset:article__item; 
+}
+
+.article__item {
+    padding-top: 10px;
+}
+
+.article__item:before {
+    padding-right: 5px;
+    content:counter(article__item) ")"; /* В качестве данных используем счетчик */
+    counter-increment:article__item; /* задаем имя счетчика */
+    font-size: 20px;
+    color: gray;
+    }

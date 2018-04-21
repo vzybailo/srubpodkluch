@@ -1,23 +1,41 @@
 .header {
+    display: flex;
     font-family: 'ArialBlack';
     font-size: 17px;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid grey;     
 }
 
-.header__logo {
-    padding-right: 45px;
+.container-header {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo-pic {
+    padding: 10px;
+    height: 100px;
 }
 
 .header__menu {
     padding-right: 90px;
+    padding-left: 45px;
+    
 }
 
 .item-header {
     text-decoration: none;
     color: #807F7F;
     font-size: 17px;
+
+    &:hover {
+        color: black;
+    }
 }
   
 .nav__list {
@@ -48,14 +66,223 @@
     color: black;
 }
 
-.item-header:hover {
-    color: black;
-}
-
 .header__contacts {
-    color: $orange;
+    color: $org;
+    text-align: right;
 }
 
 .contacts__phone {
-    font-size: 25px;
+    font-size: 20px;
 }
+
+.contacts__email-mailto {
+    text-decoration: none;
+    color: $org;
+}
+
+.container-page {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.banner__text {
+    font-family: 'ArialRegular';
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.text-item:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.banner__price {
+    color: red;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'ArialRegular';
+    padding-top: 92px;
+}
+
+.banner__pic {
+    height: 450px;
+    margin-left: 60px;
+}
+
+.content {
+    display: flex;
+}
+
+
+
+.navigation__menu {
+    border: 2px solid grey;
+    border-radius: 6px;
+    width: 235px;
+    height: 340px;
+}
+
+.link { 
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+    font-size: 18px; 
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+
+.link__item {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.link__item-nav {
+    color: gray;
+
+    &:hover {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.usefull {
+    font-family: "ArialRegular";
+    font-size: 14px;
+    margin-top: 37px;
+    width: 235px;
+    height: 385px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.usefull__name {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.usefull__article {
+    padding-left: 10px;
+    padding-right: 1px;
+}
+
+.article-name {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.article-link {
+    color: blue;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.article-pic {
+    width: 90px;
+    padding-right: 5px;
+}
+
+.article-end {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.end-link {
+    color: blue;
+    text-decoration: none;
+    text-align: right;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.article {
+    margin-left: 20px;
+    font-family: "ArialRegular";
+    font-size: 16px;
+}
+
+.article__name {
+    font-family: "ArialBlack";
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.article__content {
+    text-align: justify;
+}
+
+.article__content-left {
+    float: left;
+    width: 400px;
+    padding-right: 15px;
+}
+
+.content__list {
+    padding-top: 10px;
+}
+
+.content__item:before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: black;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.article__content-right {
+    width: 200px;
+    float: right;
+    padding-left: 15px;
+}
+
+.footer {
+    height: 100px;
+    margin-top: -80px;
+    
+    padding-top: 15px;
+    background-color: gainsboro;
+}
+
+.container-footer {
+    width: 1050px;
+    margin: 0 auto;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contacts {
+    width: 250px;
+    font-family: "ArialRegular";
+    font-size: 13px; 
+    color: gray;  
+    
+}
+
+.footer__logo-pic {
+    width: 80px;  
+}
+

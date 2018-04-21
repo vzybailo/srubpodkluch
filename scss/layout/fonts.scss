@@ -1,6 +1,28 @@
 @font-face {
+    font-family: 'ArialRegular';
+    src:  url('../fonts/ArialRegular.woff')  format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ArialBold';
+    src:  url('../fonts/ArialBold.woff')  format('woff');
+    font-weight: 900;
+    font-style: bold;
+  }
+
+  @font-face {
     font-family: 'ArialBlack';
     src:  url('../fonts/ArialBlack.woff')  format('woff');
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'ArialItalic';
+    src:  url('../fonts/ArialBlack.woff')  format('woff');
+    font-weight: 100;
+    font-style: italic;
+  }
+ 
