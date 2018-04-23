@@ -1,0 +1,24 @@
+.par {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    border: 1px solid gray; 
+    width: 740px;
+}
+
+th {
+    border: 1px solid gray;   
+    padding: 5px;
+}
+
+td {
+    border: 1px solid gray;  
+    padding:5px;
+    text-align: center;
+}
+
+
+
+

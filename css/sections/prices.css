@@ -1,0 +1,9 @@
+.par__item:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: black;
+  vertical-align: middle;
+  margin-left: 50px;
+  padding-top: 50px; }
